@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form action="" target="_blank">
+        <div id="provincias">
+            <label for="">¿En qué provincia te encuentras?</label>
+            <br>
+            <select id="selProvincias " name="provinciaSeleccionada " title="Seleccione una provincia " data-size="10 " class="selectpicker ">
+                <option value="0 ">&Aacute;lava</option>
+                <option value="1 ">Albacete</option>
+                <option value="2 ">Alicante</option>
+                <option value="3 ">Almer&iacute;a</option>
+                <option value="4 ">&Aacute;vila</option>
+                <option value="5 ">Badajoz</option>
+                <option value="6 ">Balears, Illes</option>
+                <option value="7 ">Barcelona</option>
+                <option value="8 ">Burgos</option>
+                <option value="9 ">C&aacute;ceres</option>
+                <option value="10 ">C&aacute;diz</option>
+                <option value="11 ">Castell&oacute;n</option>
+                <option value="12 ">Ciudad Real</option>
+                <option value="13 ">C&oacute;rdoba</option>
+                <option value="14 ">Coru&ntilde;a, A</option>
+                <option value="15 ">Cuenca</option>
+                <option value="16 ">Girona</option>
+                <option value="17 ">Granada</option>
+                <option value="18 ">Guadalajara</option>
+                <option value="19 ">Gipuzkoa</option>
+                <option value="20 ">Huelva</option>
+                <option value="21 ">Huesca</option>
+                <option value="22 ">Ja&eacute;n</option>
+                <option value="23 ">Le&oacute;n</option>
+                <option value="24 ">Lleida</option>
+                <option value="25 ">Rioja, La</option>
+                <option value="26 ">Lugo</option>
+                <option value="27 ">Madrid</option>
+                <option value="28 ">M&aacute;laga</option>
+                <option value="29 ">Murcia</option>
+                <option value="30 ">Navarra</option>
+                <option value="31 ">Ourense</option>
+                <option value="32 ">Asturias</option>
+                <option value="33 ">Palencia</option>
+                <option value="34 ">Palmas, Las</option>
+                <option value="35 ">Pontevedra</option>
+                <option value="36 ">Salamanca</option>
+                <option value="37 ">Santa Cruz de Tenerife</option>
+                <option value="38 ">Cantabria</option>
+                <option value="39 ">Segovia</option>
+                <option value="40 ">Sevilla</option>
+                <option value="41 ">Soria</option>
+                <option value="42 ">Tarragona</option>
+                <option value="43 ">Teruel</option>
+                <option value="44 ">Toledo</option>
+                <option value="45 ">Valencia</option>
+                <option value="46 ">Valladolid</option>
+                <option value="47 ">Vizcaya</option>
+                <option value="48 ">Zamora</option>
+                <option value="49 ">Zaragoza</option>
+                <option value="50 ">Ceuta</option>
+                <option value="51 ">Melilla</option>
+            </select>
+
+        </div>
+
+
+        <hr>
+        <div id="metros">
+            <label>¿Cuántos m
+                <sup>2</sup> tiene tu vivienda?</label>
+            <br>
+            <input type="radio" name="metros" value="50omenos"> 50 o menos m
+            <sup>2</sup>
+            <br>
+            <input type="radio" name="metros" value="de51a80"> De 51 a 80 m
+            <sup>2</sup>
+            <br>
+            <input type="radio" name="metros" value="de81a110"> De 81 a 110 m
+            <sup>2</sup>
+            <br>
+            <input type="radio" name="metros" value="de111a140"> De 111 a 140 50 m
+            <sup>2</sup>
+            <br>
+            <input type="radio" name="metros" value="de141a180"> De 141 a 180 m
+            <sup>2</sup>
+            <br>
+            <input type="radio" name="metros" value="masde180"> Más de 180 m
+            <sup>2</sup>
+            <br>
+            <hr>
+        </div>
+
+        <div id="electrodomesticos">
+            <label for="">¿Qué electrodomésticos hay en tu vivienda?</label>
+            <br>
+            <input type="checkbox" name="vitroceramica"> Vitrocerámica
+            <br>
+            <input type="checkbox" name="microondas"> Microondas
+            <br>
+            <input type="checkbox" name="horno"> Horno eléctrico
+            <br>
+            <input type="checkbox" name="frigorifico"> Frigorífico
+            <br>
+            <input type="checkbox" name="termo"> Termo eléctrico
+            <br>
+            <input type="checkbox" name="lavadora"> Lavadora
+            <br>
+            <input type="checkbox" name="secadora"> Secadora
+            <br>
+            <input type="checkbox" name="lavavajillas"> Lavavajillas
+            <br>
+            <hr>
+        </div>
+
+        <div id="calefaccion">
+            <label>¿Dispones de calefacción eléctrica?</label>
+            <br>
+            <input type="radio" name="calefaccion" value="calefaccion_si"> Sí tengo
+            <br>
+            <input type="radio" name="calefaccion" value="calefaccion_no"> No tengo
+            <br>
+
+            <label>¿De qué tipo?</label>
+            <br>
+            <input type="radio" name="tipo_calefaccion" value="acumuladores"> Acumuladores
+            <br>
+            <input type="radio" name="tipo_calefaccion" value="electrica"> Eléctrica
+            <br>
+            <input type="radio" name="tipo_calefaccion" value="bomba_de_calor"> Bomba de calor
+            <br>
+            <hr>
+        </div>
+
+
+        <div id="aire_acondicionado">
+            <label>¿Hay aire acondicionado en la vivienda?</label>
+            <br>
+            <input type="radio" name="aire_acondicionado" value="aire_si"> Sí tengo
+            <br>
+            <input type="radio" name="aire_acondicionado" value="aire_no"> No tengo
+            <br>
+
+            <label>¿En cuántas habitaciones?</label>
+            <br>
+            <input type="text" name="habitaciones" value="">
+            <br>
+        </div>
+
+    </form>
+
+    <form action="">
+        <label for="">Tu potencia recomendada es
+            <span>0</span>
+        </label>
+
+    </form>
+
+
+</body>
+
+</html>
